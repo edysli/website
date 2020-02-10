@@ -421,7 +421,7 @@ to schedule Pods everywhere.
 The nodes are where your workloads (containers and Pods, etc) run. To add new nodes to your cluster do the following for each machine:
 
 * SSH to the machine
-* Become root (e.g. `sudo su -`)
+* Become root (e.g. `sudo -i`)
 * Run the command that was output by `kubeadm init`. For example:
 
 ``` bash
